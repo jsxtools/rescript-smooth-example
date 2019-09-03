@@ -1,0 +1,13 @@
+@import-normalize;
+
+body {
+	font: 100%/1.5 system-ui;
+	margin: 5%;
+
+	& button ~ strong {
+		display: inline-block;
+		margin-inline: 1em;
+		min-width: 2em;
+		text-align: center;
+	}
+}

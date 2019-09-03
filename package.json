@@ -3,18 +3,17 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@rescripts/cli": "0.0.11",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
-    "react-scripts": "3.1.1"
+    "react-scripts": "3.1.1",
+    "rescript-smooth": "^1.0.1"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
+    "start": "rescripts start",
+    "build": "rescripts build",
+    "test": "rescripts test",
+    "eject": "rescripts eject"
   },
   "browserslist": {
     "production": [
@@ -25,7 +24,11 @@
     "development": [
       "last 1 chrome version",
       "last 1 firefox version",
+      "last 1 ie version",
       "last 1 safari version"
     ]
-  }
+  },
+  "rescripts": [
+    "smooth"
+  ]
 }
